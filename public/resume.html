@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vignesh S - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #fff;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2563eb;
+        }
+        
+        h1 {
+            font-size: 36px;
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        h2 {
+            font-size: 22px;
+            color: #1e40af;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e5e7eb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        h3 {
+            font-size: 18px;
+            color: #374151;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+        
+        .summary {
+            text-align: justify;
+            margin-bottom: 20px;
+            color: #4b5563;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .skill-category {
+            background: #f9fafb;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #2563eb;
+        }
+        
+        .skill-category h4 {
+            font-size: 14px;
+            color: #1e40af;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .skill-category p {
+            font-size: 13px;
+            color: #6b7280;
+            line-height: 1.8;
+        }
+        
+        .experience-item, .project-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f9fafb;
+            border-radius: 8px;
+        }
+        
+        .job-header, .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 10px;
+        }
+        
+        .job-title, .project-title {
+            font-weight: 600;
+            color: #1f2937;
+            font-size: 16px;
+        }
+        
+        .company, .duration {
+            color: #2563eb;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        
+        .period {
+            color: #6b7280;
+            font-size: 13px;
+            font-style: italic;
+        }
+        
+        .description {
+            color: #4b5563;
+            font-size: 14px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        .achievements, .tech-stack {
+            margin-top: 10px;
+        }
+        
+        .achievements ul, .tech-stack ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .achievements li, .tech-stack li {
+            padding-left: 20px;
+            position: relative;
+            margin-bottom: 5px;
+            font-size: 13px;
+            color: #4b5563;
+        }
+        
+        .achievements li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #2563eb;
+            font-weight: bold;
+        }
+        
+        .tech-stack li:before {
+            content: "•";
+            position: absolute;
+            left: 5px;
+            color: #2563eb;
+            font-weight: bold;
+        }
+        
+        .education {
+            background: #f9fafb;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .degree {
+            font-weight: 600;
+            color: #1f2937;
+            font-size: 16px;
+        }
+        
+        .university {
+            color: #2563eb;
+            font-size: 14px;
+        }
+        
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        
+        .interest-tag {
+            background: #eff6ff;
+            color: #1e40af;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 13px;
+            border: 1px solid #bfdbfe;
+        }
+        
+        @media print {
+            body {
+                padding: 20px;
+            }
+            
+            .experience-item, .project-item, .skill-category, .education {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>VIGNESH S</h1>
+        <div class="contact-info">
+            <span>📧 vigneshsivaji8@gmail.com</span>
+            <span>📱 +91 9360657174</span>
+            <span>📍 Dharmapuri, Tamil Nadu 636810</span>
+        </div>
+    </div>
+
+    <h2>Professional Summary</h2>
+    <p class="summary">
+        Motivated Full Stack Developer with 6 months of internship experience in web development. Proficient in front-end and back-end technologies including HTML, CSS, JavaScript, and MySQL. Demonstrated ability to build user-friendly and scalable web applications. Strong problem-solving skills with a passion for creating efficient solutions and enhancing user experiences.
+    </p>
+
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <h4>Programming Languages</h4>
+            <p>Java, C++, Python, JavaScript (ES6+)</p>
+        </div>
+        <div class="skill-category">
+            <h4>Frontend Technologies</h4>
+            <p>React.js, HTML5, CSS3, Bootstrap, Tailwind CSS, Redux, React Router</p>
+        </div>
+        <div class="skill-category">
+            <h4>Backend Technologies</h4>
+            <p>Node.js, SpringBoot, RESTful APIs</p>
+        </div>
+        <div class="skill-category">
+            <h4>Databases</h4>
+            <p>SQL, MySQL, MongoDB, MS Access</p>
+        </div>
+        <div class="skill-category">
+            <h4>Tools & Platforms</h4>
+            <p>Git, GitHub, Postman, Jira, VS Code</p>
+        </div>
+        <div class="skill-category">
+            <h4>Development Concepts</h4>
+            <p>RESTful APIs, JWT Authentication, Responsive Design, MVC Architecture</p>
+        </div>
+    </div>
+
+    <h2>Professional Experience</h2>
+    <div class="experience-item">
+        <div class="job-header">
+            <div>
+                <div class="job-title">Full Stack Developer Intern (React + REST API)</div>
+                <div class="company">Mak INFOTECH solution | Onsite</div>
+            </div>
+            <div class="period">2025 - 2026 (6 Months)</div>
+        </div>
+        <p><strong>Project:</strong> ALGO Trading</p>
+        <p class="description">
+            Developed a responsive Algo Trading dashboard UI using React.js, Tailwind CSS, and React Router for smooth navigation across trading modules. Implemented Redux state management to handle live market data, user interactions, and trading UI updates efficiently. Integrated REST APIs using Fetch/Axios to display real-time trading data (prices, orders, strategies) with optimized loading and error handling.
+        </p>
+        <div class="achievements">
+            <strong>Key Achievements:</strong>
+            <ul>
+                <li>Developed responsive Algo Trading dashboard UI using React.js, Tailwind CSS, and React Router</li>
+                <li>Implemented Redux state management for live market data and user interactions</li>
+                <li>Integrated REST APIs using Fetch/Axios for real-time trading data display</li>
+                <li>Optimized loading and error handling for enhanced user experience</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Projects</h2>
+    <div class="project-item">
+        <div class="project-header">
+            <div>
+                <div class="project-title">E-Commerce Platform (MERN Stack)</div>
+                <div class="duration">Duration: 2 Months</div>
+            </div>
+        </div>
+        <p class="description">
+            Built a Full-Stack E-commerce web app using React.js, Node.js/Express.js, MongoDB with Redux for cart, auth, and product state management. Developed REST APIs (CRUD, orders, authentication) with JWT-based role access, responsive UI, and reusable React components (product, cart, checkout, dashboard). Added Search + Filters + Pagination + Sorting, Stripe payment simulation, admin panel, and improved performance using MongoDB indexing (40% faster responses).
+        </p>
+        <div class="tech-stack">
+            <strong>Technologies:</strong>
+            <ul>
+                <li>Frontend: React.js, Redux, CSS3, Bootstrap</li>
+                <li>Backend: Node.js, Express.js, MongoDB, Mongoose</li>
+                <li>Features: JWT Authentication, Stripe Payment, Admin Panel, MongoDB Indexing</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="project-item">
+        <div class="project-header">
+            <div>
+                <div class="project-title">Task Manager Application (MERN Stack)</div>
+                <div class="duration">Duration: 1.5 Months</div>
+            </div>
+        </div>
+        <p class="description">
+            Built a full-stack Task Management System using React.js, Express.js REST API, MongoDB, and Redux Toolkit for task state, filters, and preferences. Implemented JWT authentication, user-based task isolation, drag-and-drop task reordering (React DnD), and responsive UI with Material-UI. Added Search + Filter with debouncing, deadline alerts using Node Cron, and a dashboard with task stats and progress metrics.
+        </p>
+        <div class="tech-stack">
+            <strong>Technologies:</strong>
+            <ul>
+                <li>Frontend: React.js, Redux Toolkit, CSS3, Material-UI</li>
+                <li>Backend: Node.js, Express.js, MongoDB, Mongoose</li>
+                <li>Features: JWT Authentication, React DnD, Node Cron, Task Analytics Dashboard</li>
+            </ul>
+        </div>
+    </div>
+
+    <h2>Education</h2>
+    <div class="education">
+        <div class="education-header">
+            <div>
+                <div class="degree">Bachelor of Science in Computer Science</div>
+                <div class="university">Periyar University</div>
+            </div>
+            <div class="period">2021</div>
+        </div>
+        <p style="margin-top: 8px; color: #6b7280; font-size: 14px;">CGPA: 6.78/10</p>
+    </div>
+
+    <h2>Areas of Interest</h2>
+    <div class="interests">
+        <span class="interest-tag">Full-Stack Web Development</span>
+        <span class="interest-tag">Modern JavaScript Frameworks</span>
+        <span class="interest-tag">User Experience (UX) Design</span>
+        <span class="interest-tag">RESTful API Design</span>
+        <span class="interest-tag">Database Optimization</span>
+        <span class="interest-tag">Continuous Learning</span>
+    </div>
+
+    <h2 style="margin-top: 30px;">Declaration</h2>
+    <p style="font-size: 14px; color: #4b5563; font-style: italic;">
+        I hereby declare that all the information provided in this resume is true and accurate to the best of my knowledge.
+    </p>
+</body>
+</html>

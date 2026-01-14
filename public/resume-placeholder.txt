@@ -1,0 +1,10 @@
+# Your Resume
+
+This is a placeholder for your resume PDF file.
+
+To add your actual resume:
+1. Replace this file with your resume PDF
+2. Name it `resume.pdf`
+3. Place it in the `public` folder
+
+The resume will be available for download via the "Resume" button in the header.

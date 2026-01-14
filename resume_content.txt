@@ -1,0 +1,98 @@
+VIGNESH S
+
+Email: vigneshsivaji8@gmail.com | Mobile: +91 9360657174 | Location: Dharmapuri, Tamil Nadu 636810
+
+PROFESSIONAL SUMMARY
+
+Motivated Full Stack Developer with 6 months of internship experience in web development. Proficient in front-end and back-end technologies including HTML, CSS, JavaScript, and MySQL. Demonstrated ability to build user-friendly and scalable web applications. Strong problem-solving skills with a passion for creating efficient solutions and enhancing user experiences.
+
+TECHNICAL SKILLS
+
+Programming Languages:  Java, C++, Python, JavaScript (ES6+)
+
+Frontend Technologies: React.js, HTML5, CSS3, Bootstrap, Tailwind, Redux, React Router
+
+Backend Technologies: Node.js, SpringBoot, RESTful APIs
+
+Databases: SQL , MySQL, MS Access
+
+Tools & Platforms: Git, GitHub, Postman, Jira, VS Code
+
+Operating Systems: Microsoft Windows, Linux
+
+Development Concepts: RESTful APIs, JWT Authentication, Responsive Design, MVC Architecture
+
+Soft Skills: Problem Solving, Debugging, Team Collaboration, Communication
+
+PROFESSIONAL EXPERIENCE
+
+Full Stack Developer Intern (React + REST API)
+
+Mak INFOTECH solution | onsite
+
+Project: ALGO Trading 
+
+Duration: 6 Months (2025-2026)
+
+Developed a responsive Algo Trading dashboard UI using React.js, Tailwind CSS, and React Router for smooth navigation across trading modules.
+
+Implemented Redux state management to handle live market data, user interactions, and trading UI updates efficiently.
+
+Integrated REST APIs using Fetch/Axios to display real-time trading data (prices, orders, strategies) with optimized loading and error handling.
+
+PROJECTS
+
+E-Commerce Platform (MERN Stack)
+
+Frontend: React.js, Redux, CSS3, Bootstrap
+
+Backend: Node.js, Express.js, MongoDB, Mongoose
+
+Duration: 2 Months
+
+Built a Full-Stack E-commerce web app using React.js, Node.js/Express.js, MongoDB with Redux for cart, auth, and product state management.
+
+Developed REST APIs (CRUD, orders, authentication) with JWT-based role access, responsive UI, and reusable React components (product, cart, checkout, dashboard).
+
+Added Search + Filters + Pagination + Sorting, Stripe payment simulation, admin panel, and improved performance using MongoDB indexing (40% faster responses).
+
+Task Manager Application (MERN Stack)
+
+Frontend: React.js, Redux Toolkit, CSS3, Material-UI
+
+Backend: Node.js, Express.js, MongoDB, Mongoose
+
+Duration: 1.5 Months
+
+Built a full-stack Task Management System using React.js, Express.js REST API, MongoDB, and Redux Toolkit for task state, filters, and preferences.
+
+ Implemented JWT authentication, user-based task isolation, drag-and-drop task reordering (React DnD), and responsive UI with Material-UI.
+
+ Added Search + Filter with debouncing, deadline alerts using Node Cron, and a dashboard with task stats and progress metrics.
+
+EDUCATION
+
+Bachelor of Science in Computer Science
+
+Periyar University | 2021
+
+CGPA: 6.78/10
+
+AREAS OF INTEREST
+
+Full-Stack Web Development and Modern JavaScript Frameworks
+
+User Experience (UX) Design and Interface Development
+
+RESTful API Design and Integration
+
+Database Optimization and Management
+
+Continuous Learning and Emerging Technologies
+
+DECLARATION
+
+I hereby declare that all the information provided in this resume is true and accurate to the best of my knowledge.
+
+
+
