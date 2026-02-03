@@ -7,8 +7,8 @@ const Skills = () => {
             category: 'Programming Languages',
             skills: [
                 { name: 'Java', level: 75, icon: '☕' },
-                { name: 'C++', level: 70, icon: '⚙️' },
-                { name: 'Python', level: 75, icon: '🐍' },
+                { name: 'C++', level: 50, icon: '⚙️' },
+                { name: 'Python', level: 50, icon: '🐍' },
                 { name: 'JavaScript (ES6+)', level: 85, icon: '🟨' },
             ],
         },
@@ -20,7 +20,7 @@ const Skills = () => {
                 { name: 'CSS3', level: 90, icon: '🎨' },
                 { name: 'Bootstrap', level: 80, icon: '🅱️' },
                 { name: 'Tailwind', level: 85, icon: '💨' },
-                { name: 'Redux', level: 80, icon: '🔄' },
+                { name: 'Redux', level: 75, icon: '🔄' },
                 { name: 'React Router', level: 85, icon: '🛣️' },
             ],
         },
@@ -37,7 +37,7 @@ const Skills = () => {
             skills: [
                 { name: 'SQL', level: 80, icon: '💾' },
                 { name: 'MySQL', level: 80, icon: '🗄️' },
-                { name: 'MS Access', level: 70, icon: '📊' },
+                { name: 'MS Access', level: 60, icon: '📊' },
             ],
         },
         {
@@ -54,7 +54,7 @@ const Skills = () => {
             category: 'Operating Systems',
             skills: [
                 { name: 'Microsoft Windows', level: 90, icon: '🪟' },
-                { name: 'Linux', level: 75, icon: '🐧' },
+                { name: 'Linux', level: 60, icon: '🐧' },
             ],
         },
         {
