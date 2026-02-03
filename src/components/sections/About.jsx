@@ -31,7 +31,7 @@ const About = () => {
                                     <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center text-6xl">
                                         👨‍💻
                                     </div>
-                                    <p className="text-dark-400 text-sm">Your Photo Here</p>
+                                    
                                 </div>
                             </div>
                         </Card>
