@@ -24,11 +24,11 @@ const Projects = () => {
         },
         {
             title: 'Weather App',
-            description: 'Built a responsive Weather Application using React.js and Tailwind CSS with real-time weather data integration. Implemented OpenWeather API to fetch current weather conditions, 5-day forecasts, and location-based weather updates. Features include dynamic weather icons, temperature unit conversion (Celsius/Fahrenheit), city search functionality, and responsive design optimized for all devices.',
+            description: 'Built a responsive Weather Application using React.js and Tailwind CSS with real-time weather data integration. Implemented OpenWeather API to fetch current weather conditions, 5-day forecasts, and location-based weather updates. Features include dynamic weather icons, temperature unit conversion Celsius, city search functionality, and responsive design optimized for all devices.',
             image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800&h=600&fit=crop',
             tags: ['React.js', 'Tailwind CSS', 'OpenWeather API', 'Fetch API'],
-            liveUrl: '#',
-            githubUrl: '#',
+            liveUrl: 'https://weather-app-beta-five-98.vercel.app/',
+            githubUrl: 'https://github.com/Vignesh-Dev4/Weather-App',
             duration: '1 Month',
         },
     ];
