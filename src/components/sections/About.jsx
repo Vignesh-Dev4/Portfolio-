@@ -25,15 +25,12 @@ const About = () => {
                 <div className="grid md:grid-cols-2 gap-12 items-center">
                     {/* Image/Avatar Section */}
                     <div className="animate-fade-in-left">
-                        <Card className="aspect-square overflow-hidden">
-                            <div className="w-full h-full bg-gradient-to-br from-primary-500/20 to-accent-500/20 flex items-center justify-center">
-                                <div className="text-center">
-                                    <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-primary-500 to-accent-500 flex items-center justify-center text-6xl">
-                                        👨‍💻
-                                    </div>
-                                    
-                                </div>
-                            </div>
+                        <Card className="aspect-square overflow-hidden p-0">
+                            <img
+                                src="/profile_dark_bg.png"
+                                alt="Profile"
+                                className="w-full h-full object-cover"
+                            />
                         </Card>
                     </div>
 
